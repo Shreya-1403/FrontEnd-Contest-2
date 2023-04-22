@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav {
+    height: 86px;
+    position: sticky;
+    background-color: #FCAF02;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    top: 6px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.all {
+    position: absolute;
+    right: 30px;
+    top: 24px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+#about {
+    padding: 30px;
+    height: 400px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.landing {
+    position: absolute;
+    display: inline-block;
+    left: 28px;
+    width: 65%;
+    color: white;
+}
+
+
+.left {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    width: 30%;
+}
+
+.btn {
+    border: none;
+    border-radius: 500px;
+    background-color: #FCAF02;
+    color: black;
+    width: 323px;
+    height: 66px;
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+#contact {
+    padding: 30px;
+    background-color: black;
+    height: 500px;
+}
+
+#contact h1 {
+    color: #FCAF02;
+}
+
+input {
+    padding: 10px 15px;
+    margin: 15px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#name,
+#number,
+#email,
+#city {
+    border-radius: 100px;
+    color: #FCAF02;
+    border: 2px solid#FCAF02;
+    padding-left: 50px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    height: 82px;
+}
+
+#name,
+#email {
+    width: 100%;
+}
+
+#number,
+#city {
+    width: 690px;
+}
+
+#city {
+    right: 63px;
+}
+
+#contact .btn {
+    left: 40%;
+}
+
+::placeholder {
+    color: #FCAF02;
+    opacity: 1;
+}
+
+#table {
+    padding: 30px;
+    height: 550px;
+    background-color: black;
+}
+
+table {
+    border: 2px solid #FCAF02;
+    color: #FCAF02;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+
+}
+
+table,
+td,
+th {
+    border: 2px solid #FCAF02;
+    border-collapse: collapse;
+    padding: 15px 35px;
+    text-align: left;
+}
+
+tfoot td {
+    border: 2px solid black;
+    background-color: #FCAF02;
+    color: black;
+    border-collapse: collapse;
+}
